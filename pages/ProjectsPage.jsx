@@ -1,8 +1,8 @@
 
 import React, { useState } from 'react'
 import Image from 'next/image'
-import { Navbar } from '@/Components/Global/Navbar'
-import { Footer } from '@/Components/Global/Footer'
+import { Navbar } from '@/components/Global/Navbar'
+import { Footer } from '@/components/Global/Footer'
 
 import { FaAngleRight } from 'react-icons/fa'
 import { FaAngleDown } from 'react-icons/fa'
@@ -149,13 +149,13 @@ const ProjectsPage = () => {
                                             {projectGallery[selectedLanguage].title}
                                             <Image alt='image' src='./close-icon.svg' width={20} height={20}
                                                 className=' cursor-pointer'
-                                           
+
                                                 onClick={() => setSelectedLanguage(null)}></Image>
                                         </h3>
-                                 
-                                    <LanguageImages images={projectGallery[selectedLanguage].images}
+
+                                        <LanguageImages images={projectGallery[selectedLanguage].images}
                                             projectDetail={projectGallery[selectedLanguage].projectDetail} />
-                                 
+
                                     </div>
                                 )}
                             </span>

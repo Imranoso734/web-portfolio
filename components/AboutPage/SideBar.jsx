@@ -28,31 +28,31 @@ export const SideBar = ({ showPersonalInfo, showIntroduction, showBackground,
     <div>
       <div className="md:flex bg-[#011627]">
         <div className="border-[#1E2D3D] md:block hidden py-4 px-3 h-[100vh]">
-          <Image alt='image' src='./personal-info-icon.svg' width={20} height={24}></Image>
+          <Image alt='image' src='/personal-info-icon.svg' width={20} height={24}></Image>
 
-          <Image alt='image' src='./professional-info-icon.svg' width={20} height={24} className='my-5' ></Image>
+          <Image alt='image' src='/professional-info-icon.svg' width={20} height={24} className='my-5' ></Image>
 
-          <Image alt='image' src='./hobbies-icon.svg' width={20} height={24}></Image>
+          <Image alt='image' src='/hobbies-icon.svg' width={20} height={24}></Image>
         </div>
         <div className="w-full border-l  border-[#1E2D3D]">
           <ul className='text-[16px]'>
 
-            <li className='hover:text-white cursor-pointer px-5 border-b border-[#1E2D3D] py-2' onClick={showPersonalInfo}>personal-info</li>
+            <li className='hover:text-white cursor-pointer px-5 border-b border-[#1E2D3D] py-2' onClick={showPersonalInfo}>Personal Info</li>
             {/* <Link href='/AboutPage' className='hover:text-white cursor-pointer px-5  flex items-center gap-2 pt-1.5' onClick={showBio}><FaAngleRight/><Image alt='image' src='/Vector.svg' width={16} height={14} ></Image> about-me</Link> */}
 
-            <li className='hover:text-white cursor-pointer px-5  flex items-center gap-2 pt-1.5' onClick={showBioList}> {showBio ? <FaAngleDown /> : <FaAngleRight />} <Image alt='image' src='/Vector.svg' width={16} height={14} ></Image> bio</li>
+            <li className='hover:text-white cursor-pointer px-5  flex items-center gap-2 pt-1.5' onClick={showBioList}> {showBio ? <FaAngleDown /> : <FaAngleRight />} <Image alt='image' src='/Vector.svg' width={16} height={14} ></Image>Bio</li>
             {
               showBio ? (
                 <ul className='ml-6'>
-                  <li className='hover:text-white cursor-pointer px-5 flex items-center gap-2' onClick={showIntroduction}><Image alt='image' src='./Vector (4).svg' width={16} height={14}></Image>Introduction</li>
-                  <li className='hover:text-white cursor-pointer px-5 flex items-center gap-2' onClick={showBackground}><Image alt='image' src='./Vector (4).svg' width={16} height={14}></Image>Professional Background</li>
-                  <li className='hover:text-white cursor-pointer px-5 flex items-center gap-2' onClick={showSkills}><Image alt='image' src='./Vector (4).svg' width={16} height={14}></Image>Skills</li>
+                  <li className='hover:text-white cursor-pointer px-5 flex items-center gap-2' onClick={showIntroduction}><Image alt='image' src='/Vector (4).svg' width={16} height={14}></Image>Introduction</li>
+                  <li className='hover:text-white cursor-pointer px-5 flex items-center gap-2' onClick={showBackground}><Image alt='image' src='/Vector (4).svg' width={16} height={14}></Image>Professional Background</li>
+                  <li className='hover:text-white cursor-pointer px-5 flex items-center gap-2' onClick={showSkills}><Image alt='image' src='/Vector (4).svg' width={16} height={14}></Image>Skills</li>
                 </ul>
               ) : (
                 ''
               )
             }
-            <li className='hover:text-white cursor-pointer px-5  flex items-center gap-2' onClick={showInterestList}>{showInterest ? <FaAngleDown /> : <FaAngleRight />}<Image alt='image' src='/Vector (2).svg' width={16} height={14}></Image> interests</li>
+            {/* <li className='hover:text-white cursor-pointer px-5  flex items-center gap-2' onClick={showInterestList}>{showInterest ? <FaAngleDown /> : <FaAngleRight />}<Image alt='image' src='/Vector (2).svg' width={16} height={14}></Image>Interests</li>
             {
               showInterest ? (
                 <ul className='pl-6'>
@@ -64,8 +64,8 @@ export const SideBar = ({ showPersonalInfo, showIntroduction, showBackground,
               ) : (
                 ''
               )
-            }
-            <li className='hover:text-white cursor-pointer px-5  flex items-center gap-2' onClick={showCertificationList}>{showCertification ? <FaAngleDown /> : <FaAngleRight />}<Image alt='image' src='/Vector (2).svg' width={16} height={14}></Image> certifications</li>
+            } */}
+            {/* <li className='hover:text-white cursor-pointer px-5  flex items-center gap-2' onClick={showCertificationList}>{showCertification ? <FaAngleDown /> : <FaAngleRight />}<Image alt='image' src='/Vector (2).svg' width={16} height={14}></Image>Certifications</li>
             {
               showCertification ? (
                 <ul className='ml-6'>
@@ -81,14 +81,14 @@ export const SideBar = ({ showPersonalInfo, showIntroduction, showBackground,
               ) : (
                 ''
               )
-            }
+            } */}
 
-            <li className='hover:text-white cursor-pointer px-5 pb-2  flex items-center gap-2' onClick={showEducationList}> {showEducation ? <FaAngleDown /> : <FaAngleRight />} <Image alt='image' src='./Vector (3).svg' width={16} height={14}></Image> education</li>
+            <li className='hover:text-white cursor-pointer px-5 pb-2  flex items-center gap-2' onClick={showEducationList}> {showEducation ? <FaAngleDown /> : <FaAngleRight />} <Image alt='image' src='./Vector (3).svg' width={16} height={14}></Image>Education</li>
             {
               showEducation ? (
                 <ul className='ml-6'>
-                  <li className='hover:text-white cursor-pointer px-5 flex items-center gap-2' onClick={showCollegeDegree}><Image alt='image' src='./Vector (4).svg' width={16} height={14}></Image> high-school</li>
-                  <li className='hover:text-white cursor-pointer px-5 pb-2 flex items-center gap-2' onClick={showUniversityDegree}><Image alt='image' src='./Vector (4).svg' width={16} height={14}></Image> university</li>
+                  <li className='hover:text-white cursor-pointer px-5 flex items-center gap-2' onClick={showCollegeDegree}><Image alt='image' src='./Vector (4).svg' width={16} height={14}></Image> Degree / Certificate</li>
+                  {/* <li className='hover:text-white cursor-pointer px-5 pb-2 flex items-center gap-2' onClick={showUniversityDegree}><Image alt='image' src='./Vector (4).svg' width={16} height={14}></Image> university</li> */}
                 </ul>
               ) : (
                 ''
@@ -96,9 +96,9 @@ export const SideBar = ({ showPersonalInfo, showIntroduction, showBackground,
             }
           </ul>
           <ul className=''>
-            <li className='hover:text-white cursor-pointer border-t border-b border-[#1E2D3D] py-2 px-6'>contacts</li>
-            <li className='hover:text-white cursor-pointer px-5 flex items-center gap-2 pt-1.5'><Image alt='image' src='./mail-icon.svg' width={16} height={14}></Image> imranoso734@gmail.com</li>
-            <li className='hover:text-white cursor-pointer px-5 pb-2 flex items-center gap-2'><Image alt='image' src='./phone-icon.svg' width={16} height={14}></Image> +923467026734</li>
+            <li className='hover:text-white cursor-pointer border-t border-b border-[#1E2D3D] py-2 px-6'>Contacts</li>
+            <li className='hover:text-white cursor-pointer px-5 flex items-center gap-2 pt-1.5'><Image alt='image' src='/mail-icon.svg' width={16} height={14}></Image> imrandev734@gmail.com</li>
+            <li className='hover:text-white cursor-pointer px-5 pb-2 flex items-center gap-2'><Image alt='image' src='/phone-icon.svg' width={16} height={14}></Image> +923467026734</li>
 
           </ul>
         </div>

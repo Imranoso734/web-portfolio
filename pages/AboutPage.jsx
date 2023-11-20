@@ -1,24 +1,24 @@
 import React, { useState } from 'react'
-import { Navbar } from '@/Components/Global/Navbar'
-import { Footer } from '@/Components/Global/Footer'
-import { SideBar } from '@/Components/AboutPage/SideBar'
-import { InfoCross } from '@/Components/AboutPage/InfoCross'
-import { PersonalInfo } from '@/Components/AboutPage/PersonalInfo'
-import { Introduction } from '@/Components/AboutPage/Bio/Introduction'
-import { Background } from '@/Components/AboutPage/Bio/Background'
-import { Skills } from '@/Components/AboutPage/Bio/Skills'
-import { PassionInterests } from '@/Components/AboutPage/Interests/PassionInterests'
-import { FullStack } from '@/Components/AboutPage/Certifications/FullStack'
-import { PersonalQualities } from '@/Components/AboutPage/Interests/PersonalQualities'
-import { Achievements } from '@/Components/AboutPage/Interests/Achievements'
-import { Collaboration } from '@/Components/AboutPage/Interests/Collaboration'
-import { ReactCertificate } from '@/Components/AboutPage/Certifications/ReactCertificate'
-import { CloudPractitioner } from '@/Components/AboutPage/Certifications/CloudPractitioner'
-import { FrontEnd } from '@/Components/AboutPage/Certifications/FrontEnd'
-import { AgileScrum } from '@/Components/AboutPage/Certifications/AgileScrum'
-import { GoogleAnalytics } from '@/Components/AboutPage/Certifications/GoogleAnalytics'
-import { CollegeDegree } from '@/Components/AboutPage/Education/CollegeDegree'
-import { UniversityDegree } from '@/Components/AboutPage/Education/UniversityDegree'
+import { Navbar } from '@/components/Global/Navbar'
+import { Footer } from '@/components/Global/Footer'
+import { SideBar } from '@/components/AboutPage/SideBar'
+import { InfoCross } from '@/components/AboutPage/InfoCross'
+import { PersonalInfo } from '@/components/AboutPage/PersonalInfo'
+import { Introduction } from '@/components/AboutPage/Bio/Introduction'
+import { Background } from '@/components/AboutPage/Bio/Background'
+import { Skills } from '@/components/AboutPage/Bio/Skills'
+import { PassionInterests } from '@/components/AboutPage/Interests/PassionInterests'
+import { FullStack } from '@/components/AboutPage/Certifications/FullStack'
+import { PersonalQualities } from '@/components/AboutPage/Interests/PersonalQualities'
+import { Achievements } from '@/components/AboutPage/Interests/Achievements'
+import { Collaboration } from '@/components/AboutPage/Interests/Collaboration'
+import { ReactCertificate } from '@/components/AboutPage/Certifications/ReactCertificate'
+import { CloudPractitioner } from '@/components/AboutPage/Certifications/CloudPractitioner'
+import { FrontEnd } from '@/components/AboutPage/Certifications/FrontEnd'
+import { AgileScrum } from '@/components/AboutPage/Certifications/AgileScrum'
+import { GoogleAnalytics } from '@/components/AboutPage/Certifications/GoogleAnalytics'
+import { CollegeDegree } from '@/components/AboutPage/Education/CollegeDegree'
+import { UniversityDegree } from '@/components/AboutPage/Education/UniversityDegree'
 
 const AboutPage = () => {
   const [show, setShow] = useState(true);
@@ -317,47 +317,47 @@ const AboutPage = () => {
     setShow(false);
   }
   // college Dgree Component
-const showCollegeDegree = () =>{
-  setShowCollegeDegreeComponent(true)
-  setShowPersonalQualitiesComponent(false);
-  setShowFullStackDeveloperComponent(false);
-  setShowSkillsComponent(false)
-  setShowBackgroundComponent(false)
-  setShowIntroductionComponent(false);
-  setShowPassionInterestsComponent(false)
-  setShowAchievementsComponents(false)
-  setShowCollaborationComponents(false);
-  setShowPersonalInfoComponent(false);
-  setShowReactCertificationComponent(false)
-  setShowFrontEndDeveloperComponent(false);
-  setshowAgileScrumMasterComponent(false);
-  setshowGoogleCertificationCompnent(false);
-  setShowCloudPractitionerComponent(false);
-  setShowPersonalInfoComponent(false)
-  setShowUniversityDegreeComponent(false)
-  setShow(false);
-}
-// university degree Component
-const showUniversityDegree = ()=> {
-setShowUniversityDegreeComponent(true)
-  setShowPersonalQualitiesComponent(false);
-  setShowFullStackDeveloperComponent(false);
-  setShowCollegeDegreeComponent(false)
-  setShowSkillsComponent(false)
-  setShowBackgroundComponent(false)
-  setShowIntroductionComponent(false);
-  setShowPassionInterestsComponent(false)
-  setShowAchievementsComponents(false)
-  setShowCollaborationComponents(false);
-  setShowPersonalInfoComponent(false);
-  setShowReactCertificationComponent(false)
-  setShowFrontEndDeveloperComponent(false);
-  setshowAgileScrumMasterComponent(false);
-  setshowGoogleCertificationCompnent(false);
-  setShowCloudPractitionerComponent(false);
-  setShowPersonalInfoComponent(false)
-  setShow(false);
-}
+  const showCollegeDegree = () => {
+    setShowCollegeDegreeComponent(true)
+    setShowPersonalQualitiesComponent(false);
+    setShowFullStackDeveloperComponent(false);
+    setShowSkillsComponent(false)
+    setShowBackgroundComponent(false)
+    setShowIntroductionComponent(false);
+    setShowPassionInterestsComponent(false)
+    setShowAchievementsComponents(false)
+    setShowCollaborationComponents(false);
+    setShowPersonalInfoComponent(false);
+    setShowReactCertificationComponent(false)
+    setShowFrontEndDeveloperComponent(false);
+    setshowAgileScrumMasterComponent(false);
+    setshowGoogleCertificationCompnent(false);
+    setShowCloudPractitionerComponent(false);
+    setShowPersonalInfoComponent(false)
+    setShowUniversityDegreeComponent(false)
+    setShow(false);
+  }
+  // university degree Component
+  const showUniversityDegree = () => {
+    setShowUniversityDegreeComponent(true)
+    setShowPersonalQualitiesComponent(false);
+    setShowFullStackDeveloperComponent(false);
+    setShowCollegeDegreeComponent(false)
+    setShowSkillsComponent(false)
+    setShowBackgroundComponent(false)
+    setShowIntroductionComponent(false);
+    setShowPassionInterestsComponent(false)
+    setShowAchievementsComponents(false)
+    setShowCollaborationComponents(false);
+    setShowPersonalInfoComponent(false);
+    setShowReactCertificationComponent(false)
+    setShowFrontEndDeveloperComponent(false);
+    setshowAgileScrumMasterComponent(false);
+    setshowGoogleCertificationCompnent(false);
+    setShowCloudPractitionerComponent(false);
+    setShowPersonalInfoComponent(false)
+    setShow(false);
+  }
   return (
     <>
       <div className='bg-[#011627] text-[#607B96] text-[16px]'>
@@ -369,14 +369,14 @@ setShowUniversityDegreeComponent(true)
               showPersonalQualities={showPersonalQualities} showAchievements={showAchievements} showCollaboration={showCollaboration}
               showFullStackDeveloper={showFullStackDeveloper} showReactCertification={showReactCertification}
               showCloudPractitioner={showCloudPractitioner} showFrontEndDeveloper={showFrontEndDeveloper}
-              showAgileScrumMaster={showAgileScrumMaster} showGoogleCertification={showGoogleCertification} 
-              showCollegeDegree = {showCollegeDegree} showUniversityDegree={showUniversityDegree}/>
+              showAgileScrumMaster={showAgileScrumMaster} showGoogleCertification={showGoogleCertification}
+              showCollegeDegree={showCollegeDegree} showUniversityDegree={showUniversityDegree} />
           </span>
           <span className='md:w-[77.5%] lg:h-[100vh] w-full'>
 
             {
               show ? (
-                <InfoCross hideComponent={hideData} info="personal-info" />
+                <InfoCross hideComponent={hideData} info="Personal Info" />
               ) : (
                 ''
               )
@@ -406,30 +406,30 @@ setShowUniversityDegreeComponent(true)
             {
               showCollaborationComponents && <Collaboration />
             }
-              {
+            {
               showFullStackDeveloperComponent && <FullStack />
             }
-             {
-              showReactCertificationComponent && <ReactCertificate/>
-             }
-             {
-              showCloudPractitionerComponent && <CloudPractitioner/>
-             }
-             {
-              showFrontEndDevelopervComponent && <FrontEnd/>
-             }
-              {
-                showAgileScrumMasterCompnent && <AgileScrum/>
-              } 
-              {
-                showGoogleCertificationComponent && <GoogleAnalytics/>
-              }
-              {
-                showCollegeDegreeComponent && <CollegeDegree/>
-              }
-              {
-                showUniversityDegreeComponent && <UniversityDegree/>
-              }
+            {
+              showReactCertificationComponent && <ReactCertificate />
+            }
+            {
+              showCloudPractitionerComponent && <CloudPractitioner />
+            }
+            {
+              showFrontEndDevelopervComponent && <FrontEnd />
+            }
+            {
+              showAgileScrumMasterCompnent && <AgileScrum />
+            }
+            {
+              showGoogleCertificationComponent && <GoogleAnalytics />
+            }
+            {
+              showCollegeDegreeComponent && <CollegeDegree />
+            }
+            {
+              showUniversityDegreeComponent && <UniversityDegree />
+            }
           </span>
         </div>
         <Footer />
