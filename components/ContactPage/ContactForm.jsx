@@ -29,10 +29,10 @@ export const ContactForm = () => {
   return (
     <div>
       <div className="flex flex-wrap gap-6 px-3  border-t border-[#1E2D3D]">
-        <div className="lg:w-[47%] w-full md:border-r md:border-[#1E2D3D] sm:w-full flex items-center h-[100vh]">
+        <div className="lg:w-[47%] w-full md:border-r md:border-[#1E2D3D] sm:w-full flex items-center h-[74vh]">
           {
             showSucessMessage ? (
-              <form action="#" className="space-y-8 w-full py-5 md:h-[100vh] px-4" method="POST" onSubmit={handleSubmit(onSubmit)}>
+              <form action="#" className="space-y-8 w-full py-5  px-4" method="POST" onSubmit={handleSubmit(onSubmit)}>
 
                 <div>
                   <label htmlFor="name" className="block mb-2 text-sm font-medium text-[#607B96] dark:text-gray-300">name</label>
@@ -67,7 +67,7 @@ export const ContactForm = () => {
             )
           }
         </div>
-        <div className="md:mt-8 py-3  lg:w-[457px] sm:w-full px-3">
+        <div className="md:mt-8 py-3 lg:w-[457px] sm:w-full px-3">
           <ul className='list-decimal h-2'>
             <li className='before:mx-1 h-8'> <span className='text-[#C98BDF]'>return</span> <span className='text-yellow-400'> (</span></li>
             <li className='before:mx-1 h-8'> <span className='text-[#C98BDF] '>const</span> <span className='text-[#5565E8]'>button = document.querySelector</span>(<span className='text-[#FEA55F]'>'#submit'</span> )</li>

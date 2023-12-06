@@ -22,7 +22,7 @@ export const ContactPage = () => {
               <ContactSideBar />
             }
           </span>
-          <span className='md:w-[77.5%] lg:h-[100vh] w-full'>
+          <span className='md:w-[77.5%] lg:h-[80vh] w-full'>
             {
               show ? (
                 <InfoCross hideComponent={hideData} info="Contact Form" />

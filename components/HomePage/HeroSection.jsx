@@ -4,10 +4,10 @@ import Image from 'next/image'
 
 export const HeroSection = () => {
   return (
-    <div>
-      <div className="bg-main bg-[#011627]">
-        <div className="mt-10 pb-80 mx-5 md:mx-10">
-          <div className="">
+  
+      <div className="bg-main bg-[#011627]  main-page overflow-y-auto">
+        <div className="py-10 lg:flex items-center justify-between mx-5 md:mx-10">
+          <div className="lg:w-1/2">
             <p className="text-white text-lg">Hi all. I am</p>
             <h1 className="text-white text-2xl md:text-5xl py-3">Muhammad Imran</h1>
             <h2 className="text-[#4D5BCE] text-xl md:text-4xl flex gap-3 items-center">
@@ -29,19 +29,19 @@ export const HeroSection = () => {
 
             <span className="text-[#4D5BCE] pr-2">const</span>
             <span className="text-[#43D9AD]">github</span>
-            <span className="text-white px-2">=</span>{" "}
+            <span className="text-white px-2">=</span>
             <a href="">
               <span className="text-[#E99287] border-b border-b-gray-800">
                 “https://github.com/example/url”
               </span>
             </a>
           </div>
-          <div className="img">
+          <div className="lg:w-1/2 flex justify-center">
             <Image alt='image' src="/my-photo.png" width={400} height={500}></Image>
           </div>
 
         </div>
       </div>
-    </div>
+ 
   );
 };

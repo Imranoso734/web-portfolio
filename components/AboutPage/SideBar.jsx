@@ -27,7 +27,7 @@ export const SideBar = ({ showPersonalInfo, showIntroduction, showBackground,
   return (
     <div>
       <div className="md:flex bg-[#011627]">
-        <div className="border-[#1E2D3D] md:block hidden py-4 px-3 h-[100vh]">
+        <div className="border-[#1E2D3D] md:block hidden py-4 px-3 main-page">
           <Image alt='image' src='/personal-info-icon.svg' width={20} height={24}></Image>
 
           <Image alt='image' src='/professional-info-icon.svg' width={20} height={24} className='my-5' ></Image>
@@ -87,7 +87,7 @@ export const SideBar = ({ showPersonalInfo, showIntroduction, showBackground,
             {
               showEducation ? (
                 <ul className='ml-6'>
-                  <li className='hover:text-white cursor-pointer px-5 flex items-center gap-2' onClick={showCollegeDegree}><Image alt='image' src='./Vector (4).svg' width={16} height={14}></Image> Degree / Certificate</li>
+                  <li className='hover:text-white cursor-pointer px-5 pb-3 flex items-center gap-2' onClick={showCollegeDegree}><Image alt='image' src='./Vector (4).svg' width={16} height={14}></Image> Degree / Certificate</li>
                   {/* <li className='hover:text-white cursor-pointer px-5 pb-2 flex items-center gap-2' onClick={showUniversityDegree}><Image alt='image' src='./Vector (4).svg' width={16} height={14}></Image> university</li> */}
                 </ul>
               ) : (

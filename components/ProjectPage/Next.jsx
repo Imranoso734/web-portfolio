@@ -32,6 +32,14 @@ const Bootstrap = () => {
             image: '/HtmlCssProjects/html-project-1.jpg',
             projectTitle: 'Project Title',
         },
+        {
+            image: '/HtmlCssProjects/html-project-1.jpg',
+            projectTitle: 'Project Title',
+        },
+        {
+            image: '/HtmlCssProjects/html-project-1.jpg',
+            projectTitle: 'Project Title',
+        },
     ];
 
     return (

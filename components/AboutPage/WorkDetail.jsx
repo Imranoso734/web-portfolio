@@ -5,8 +5,9 @@ export const WorkDetail = () => {
 
     return (
         <div>
-            <div className="md:px-6 px-3 md:py-5 pb-4 ">
+            <div className="md:px-6 px-3 md:py-5 pb-12">
                 <p>// Code snippet showcase:</p>
+                
                 <div className="flex items-center justify-between">
                     <div className="flex flex-wrap gap-2 items-center my-5">
                         <Image alt='image' src='./user image 2.svg' width={36} height={36} className="rounded-full"></Image>
@@ -43,25 +44,7 @@ export const WorkDetail = () => {
                 <div className=" bg-[#011627]">
                   <Image alt='image' src='/code-1.png' width={400} height={600} className='h-[170px] w-[500px] rounded-lg border border-[#1E2D3D]'></Image>
                 </div>
-                {/* <div className=" bg-[#011627] mt-4">
-                    <p>   
-                        <span className='text-[#5565E8]'>const</span> <span className='text-white'>root</span>  <span className='text-[#5565E8]'>=</span>
-                         <span className='text-[#E99287]'>ReactDOM.createRoot</span>(<span className='text-red-600'>document.getElementById</span><span className='text-orange-500'>(</span><span className='text-[#43D9AD]'>'root'</span><span className='text-orange-500'>)</span>); <br />
-                        <span className='text-[#5565E8]'>const</span> <span className='text-white'>title </span> <span className='text-[#5565E8]'>=</span> Draft; <br />
-                        <span className='text-[#5565E8]'>let</span> <span className='text-white'>numPlay;</span> <br />
-                        <span className='text-[#5565E8]'>const</span> <span className='text-white'>numPlayers</span>  <span className='text-[#5565E8]'>=</span> (
-                        How many players would you like to draft with?
-                        Confirm
-                        ); <br />
-                        <span className='text-[#5565E8]'>const</span> <span className='text-white'> nextPage </span> <span className='text-[#5565E8]'>=</span> (
-                         How many draftees are there?
-                        );   <br />
-                      <span className='text-[#E99287]'>
-                      root.render(numPlayers);
-                      </span>
-                   </p>
-     
-                </div> */}
+             
             </div>
       
 

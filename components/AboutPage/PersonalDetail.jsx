@@ -4,7 +4,7 @@ export const PersonalDetail = () => {
   return (
     <div>
       <div>
-        <div className="border-r border-[#1E2D3D] pl-4 py-5 lg:h-[100vh]">
+        <div className="border-r border-[#1E2D3D] pl-4 py-5 lg:h-[79.5vh]">
           <ul className='list-decimal px-3 md:text-[15px]'>
             <li>Experienced Backend Developer with a focus on Node.js and Laravel.</li>
             <li>Proficient in building scalable and efficient APIs using Fastify and Express.</li>

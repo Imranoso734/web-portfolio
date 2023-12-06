@@ -2,69 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+
+.main-page{
+  /* height: calc(100vh - ( 62px + 44px)); */
 }
-.img-overley:hover .overlay{
-    height: 100%;
-    bottom: 1;
+.navbar {
+  height:  calc(100vh - 44px);
 }
-.overlay {
-    left: 0;
-    bottom: 0;
-    height: 0;
-    width: 100%;
-    overflow: hidden;
-    backdrop-filter: blur(8px) brightness(40%);
-    transition: all .3s ease-in-out;
+@media (min-width: 1024px) {
+  .main-page{
+    height: calc(100vh - ( 62px + 44px));
   }
-/* .table {
-  width: 810px;
 }
-  @media  (max-width : 767px) {
-    .table{
-      overflow-x: auto;
-      margin-bottom : 10px;
-    }
-  } */
-/* 
-  .navbar {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .navLink {
-    color: white;
-    border-right: 1px solid #1E2D3D;
-    padding: 1rem 2rem;
-    text-decoration: none;
-  }
-  
-  .navLink:hover {
-    border-bottom: 2px solid #FEA55F;
-  }
-  
-  .active {
-    border-bottom: 2px solid #FEA55F;
-  }
-  
-  .navVisible {
-    display: block;
-  }
-  
-  .navHidden {
-    display: none;
-  }
-  
-  @media (max-width: 767px) {
-    .navbar {
-      flex-direction: column;
-      align-items: flex-start;
-    }
-  }
-  
-   */

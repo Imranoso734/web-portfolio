@@ -4,7 +4,7 @@ import { Navbar } from '@/components/Global/Navbar'
 import { HeroSection } from '@/components/HomePage/HeroSection'
 export const HomePage = () => {
   return (
-    <div className='bg-[#011627] text-[#607B96] text-[16px]'>
+    <div className='bg-[#011627] text-[#607B96]'>
       <Navbar />
       <HeroSection />
       <Footer />

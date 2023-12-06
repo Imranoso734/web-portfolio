@@ -360,9 +360,9 @@ const AboutPage = () => {
   }
   return (
     <>
-      <div className='bg-[#011627] text-[#607B96] text-[16px]'>
+      <div className='bg-[#011627] text-[#607B96] text-[16px] overflow-auto'>
         <Navbar />
-        <div className="md:flex block">
+        <div className="md:flex block main-page">
           <span className='md:w-[357px] w-full md:border-l md:border-r md:border-[#1E2D3D]'>
             <SideBar showPersonalInfo={showPersonalInfo} showIntroduction={showIntroduction}
               showBackground={showBackground} showSkills={showSkills} showPassionInterests={showPassionInterests}
@@ -372,7 +372,7 @@ const AboutPage = () => {
               showAgileScrumMaster={showAgileScrumMaster} showGoogleCertification={showGoogleCertification}
               showCollegeDegree={showCollegeDegree} showUniversityDegree={showUniversityDegree} />
           </span>
-          <span className='md:w-[77.5%] lg:h-[100vh] w-full'>
+          <span className='md:w-[77.5%]  w-full'>
 
             {
               show ? (

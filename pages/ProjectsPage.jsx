@@ -122,10 +122,10 @@ const ProjectsPage = () => {
                             onClick={showProjectList}> {showProject ? <FaAngleDown /> : <FaAngleRight />}
                             <Image alt='image' src='./Vector.svg' width={16} height={14} ></Image> projects</li>
                         <div className="md:flex block">
-                            <span className={` border-[#1E2D3D] md:border-r ${setSelectedLanguage ? 'h-[100vh]' : 'h-fit'}`}>
+                            <span className={` border-[#1E2D3D] md:border-r ${setSelectedLanguage ? 'h-[80vh]' : 'h-fit'}`}>
                                 {
                                     showProject ? (
-                                        <ul className={`ml-6 pb-5 w-60 ${showProject ? 'h-fit' : 'h-[100vh]'}`}>
+                                        <ul className={`ml-6 pb-5 w-60 ${showProject ? 'h-fit' : 'h-[80vh]'}`}>
                                             {Object.keys(projectGallery).map((project) => (
                                                 <li
                                                     key={project}
@@ -142,7 +142,7 @@ const ProjectsPage = () => {
                                     )
                                 }
                             </span>
-                            <span className='w-full '>
+                            <span className='w-full overflow-y-auto'>
                                 {selectedLanguage && (
                                     <div className=''>
                                         <h3 className='px-5 py-3 flex gap-3 border-[#1E2D3D] border-r w-[150px]'>
