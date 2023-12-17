@@ -16,7 +16,7 @@ export const ContactPage = () => {
     <div>
       <div className='bg-[#011627] text-[#607B96] text-[16px]'>
         <Navbar />
-        <div className="md:flex block">
+        <div className="md:flex block main-page">
           <span className='md:w-[357px] w-full md:border-l md:border-r md:border-[#1E2D3D]'>
             {
               <ContactSideBar />

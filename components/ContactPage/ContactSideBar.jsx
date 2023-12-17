@@ -19,7 +19,7 @@ export const ContactSideBar = () => {
 
         <div className="w-full border-l  border-[#1E2D3D]">
 
-          <ul className='text-[16px]'>
+          <ul className='text-[17px]'>
             <li className='hover:text-white cursor-pointer border-t border-b border-[#1E2D3D] px-5  flex items-center gap-2 py-2' onClick={showContactList} > {showContact ? <FaAngleDown /> : <FaAngleRight />}Contacts</li>
 
             {

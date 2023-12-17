@@ -17,7 +17,7 @@ export const Introduction = () => {
 
       </div>
       {show && (
-        <div className="border-t border-[#1E2D3D] px-5">
+        <div className="border-t border-[#1E2D3D] px-5 text-[17px]">
           <h2 className='text-white text-xl my-3 '>Introduction:</h2>
 
           <p>

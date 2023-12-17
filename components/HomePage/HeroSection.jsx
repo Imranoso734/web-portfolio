@@ -20,13 +20,10 @@ export const HeroSection = () => {
             <p className="text-[#607B96] pt-4 text-[16px]">
               Whether you're here to explore my latest projects, learn more about my skills, or simply curious about the person behind the screen, I'm thrilled to have you. Feel free to browse around, and don't hesitate to reach out if you have any questions or exciting opportunities to discuss.
             </p>
-            <p className="text-[#607B96] pt-4 text-[16px]">
+            {/* <p className="text-[#607B96] pt-4 text-[16px]">
               Thank you for stopping by. Let's create something amazing together!
             </p>
-            {/* <p className="text-[#607B96] pb-4 text-[16px]">
-                // you can also see it on my Github page
-            </p> */}
-
+          
             <span className="text-[#4D5BCE] pr-2">const</span>
             <span className="text-[#43D9AD]">github</span>
             <span className="text-white px-2">=</span>
@@ -34,10 +31,10 @@ export const HeroSection = () => {
               <span className="text-[#E99287] border-b border-b-gray-800">
                 “https://github.com/example/url”
               </span>
-            </a>
+            </a> */}
           </div>
           <div className="lg:w-1/2 flex justify-center">
-            <Image alt='image' src="/my-photo.png" width={400} height={500}></Image>
+            <Image alt='image' src="/profile-pic-removebg-preview.png" className="scale-x-[-1]" width={350} height={400}></Image>
           </div>
 
         </div>

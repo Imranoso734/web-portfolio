@@ -35,7 +35,7 @@ export const SideBar = ({ showPersonalInfo, showIntroduction, showBackground,
           <Image alt='image' src='/hobbies-icon.svg' width={20} height={24}></Image>
         </div>
         <div className="w-full border-l  border-[#1E2D3D]">
-          <ul className='text-[16px]'>
+          <ul className='text-[17px]'>
 
             <li className='hover:text-white cursor-pointer px-5 border-b border-[#1E2D3D] py-2' onClick={showPersonalInfo}>Personal Info</li>
             {/* <Link href='/AboutPage' className='hover:text-white cursor-pointer px-5  flex items-center gap-2 pt-1.5' onClick={showBio}><FaAngleRight/><Image alt='image' src='/Vector.svg' width={16} height={14} ></Image> about-me</Link> */}
@@ -95,7 +95,7 @@ export const SideBar = ({ showPersonalInfo, showIntroduction, showBackground,
               )
             }
           </ul>
-          <ul className=''>
+          <ul className='text-[17px]'>
             <li className='hover:text-white cursor-pointer border-t border-b border-[#1E2D3D] py-2 px-6'>Contacts</li>
             <li className='hover:text-white cursor-pointer px-5 flex items-center gap-2 pt-1.5'><Image alt='image' src='/mail-icon.svg' width={16} height={14}></Image> imrandev734@gmail.com</li>
             <li className='hover:text-white cursor-pointer px-5 pb-2 flex items-center gap-2'><Image alt='image' src='/phone-icon.svg' width={16} height={14}></Image> +923467026734</li>
